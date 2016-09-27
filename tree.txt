@@ -1,0 +1,68 @@
+卷 文档 的文件夹 PATH 列表
+卷序列号为 0000-5AE1
+E:.
+│  .gitattributes
+│  .gitignore
+│  app.js
+│  app.json
+│  app.wxss
+│  README.md
+│  tree.txt
+│  
+├─common
+├─image
+│      addcart.png
+│      class.png
+│      home.png
+│      home1.png
+│      homeHL.png
+│      love.png
+│      me.png
+│      me1.png
+│      meHL.png
+│      msg.png
+│      note.png
+│      note1.png
+│      noteHL.png
+│      pen.png
+│      record.png
+│      safe.png
+│      set.png
+│      wechat.png
+│      wechat1.png
+│      wechatHL.png
+│      zs.png
+│      
+├─pages
+│  ├─good
+│  │      good.js
+│  │      good.json
+│  │      good.wxml
+│  │      good.wxss
+│  │      
+│  ├─home
+│  │      home.js
+│  │      home.json
+│  │      home.wxml
+│  │      home.wxss
+│  │      
+│  ├─index
+│  │      index.js
+│  │      index.wxml
+│  │      index.wxss
+│  │      
+│  ├─logs
+│  │      logs.js
+│  │      logs.json
+│  │      logs.wxml
+│  │      logs.wxss
+│  │      
+│  └─me
+│          me.js
+│          me.json
+│          me.wxml
+│          me.wxss
+│          
+└─utils
+        util.js
+        
