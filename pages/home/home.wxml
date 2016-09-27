@@ -1,0 +1,40 @@
+<view class="page home">
+
+  <!--轮播banner-->
+  <view class="banner">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"  />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!--商品goods-->
+  <view class="goods">
+      <view class="goods-box" wx:for="{{goodsList}}"  data-id="{{item.id}}">
+        <navigator url="/pages/good/good?id={{item.id}}">
+          <image class="gds-img" src="{{item.cover}}" />
+          <text class="gds-title">{{item.title}}</text>
+          <view class="gds-item">
+              <view class="gds-gap">
+                <progress class="progress" percent="{{item.progress}}" show-info active/>
+              </view>
+              <image class="gds-add" src="/image/addcart.png" catchtap="addCart"/>
+          </view>
+        </navigator>
+      </view>
+  </view>
+  <!-- more更多  -->
+  <view class="more">
+    <text class="more-title" bindtap="lodaMoreData">{{moreText}}</text>
+  </view>
+
+  <!-- toast 提示 -->
+  <toast hidden="{{toast}}" bindchange="toastChange" duration="1200">
+    <text style="font-size:28rpx">成功加入购物车</text>
+  </toast>
+
+</view>

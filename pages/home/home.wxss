@@ -1,0 +1,82 @@
+.banner{
+  overflow: hidden;
+  height: 300rpx;
+}
+.swiper,.swiper-item{
+    display: block;
+    height: 300rpx;
+}
+.slide-image{
+    width: 20rem;
+    height: 300rpx;
+}
+
+/*商品goods*/
+.goods{
+  overflow: hidden;
+}
+.goods-box{
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 375rpx;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.goods-box::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  border-right: 1px solid #ddd;
+  content: " ";
+  /*-webkit-transform: scaleX(.5);*/
+  /*transform: scaleX(.5);*/
+  /*-webkit-transform-origin: 0 0;*/
+  /*transform-origin: 0 0;*/
+}
+.goods-box .gds-img{
+  width:  8rem;
+  height:  8rem;
+  margin: 1rem;
+}
+.goods-box .gds-title{
+  font-size: 28rpx;
+  height: 80rpx;
+  padding:0 20rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.goods-box .gds-item{
+  margin-top: 5rpx;
+  padding:0 20rpx;
+}
+.goods-box .gds-item .gds-gap{
+  float: left;
+  overflow: hidden;
+  width: 260rpx;
+  line-height: 50rpx;
+}
+.progress{}
+.goods-box .gds-item .gds-add{
+  float: right;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+/*更多more*/
+.more{
+  display: block;
+  margin: 50rpx auto;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.more .more-title{
+  display: block;
+}

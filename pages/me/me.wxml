@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="page me">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+    <view  class="userinfo-icon">
+      <image class="icon" src="/image/love.png" background-size="cover"></image>
+      <image class="icon" src="/image/class.png" background-size="cover"></image>
+    </view>
+
+    <view  class="userinfo-set">
+      <image class="icon" src="/image/set.png" background-size="cover"></image>
+    </view>
+
+  </view>
+
+  <view class="view-item">
+    <view class="view-cell">
+      <view class="view-cell-primary">
+        <image class="view-img" src="/image/pen.png" />
+        <text class="view-name">NOTE</text>
+      </view>
+    </view>
+    <view class="view-cell">
+      <view class="view-cell-primary">
+        <image class="view-img" src="/image/record.png" />
+        <text class="view-name">RCORED</text>
+      </view>
+    </view>
+    <view class="view-cell">
+      <view class="view-cell-primary">
+        <image class="view-img" src="/image/safe.png" />
+        <text class="view-name">SAFE</text>
+      </view>
+    </view>
+    <view class="view-cell">
+      <view class="view-cell-primary">
+        <image class="view-img" src="/image/zs.png" />
+        <text class="view-name">LUCK</text>
+      </view>
+    </view>
+    <view class="view-cell">
+      <view class="view-cell-primary">
+        <image class="view-img" src="/image/msg.png" />
+        <text class="view-name">MESSAGE</text>
+      </view>
+    </view>
+  </view>
+
+</view>
